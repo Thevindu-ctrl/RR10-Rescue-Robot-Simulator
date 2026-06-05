@@ -1,0 +1,37 @@
+# === C++ BUILD ARTIFACTS ===
+*.exe
+*.out
+*.o
+*.obj
+*.ilk
+*.pdb
+*.pch
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# === GENERATED FILES (recreated by scripts) ===
+*.png
+uml_class_diagram.*
+architecture_diagram.*
+
+# === LOGS (keep sample logs, ignore runtime-generated) ===
+# Uncomment the next line if you want to exclude all log files:
+# logs/*.txt
+
+# === OS FILES ===
+.DS_Store
+Thumbs.db
+
+# === IDE / EDITOR ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === WINDOWS INSTALLER ===
+*.msi
